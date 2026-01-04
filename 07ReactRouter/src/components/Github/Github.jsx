@@ -13,6 +13,7 @@ function Github() {
   return (
     <div className='text-center m-4 bg-gray-700 text-white text-3xl p-4'> 
       Github Followers: {data.followers}
+      <img src={data.avatar_url} alt="github profile" className='m-4 rounded-full mx-auto' width="200px" height="200px"/>
     </div>
   )
 }
